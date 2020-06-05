@@ -4,7 +4,15 @@ class StringCalculator
         if operacion == ""
             0
         else
-            operacion.to_i
+            operacionArray = operacion.split("+")
+            resultado = 0
+
+            operacionArray.each do |numero| 
+                resultado += numero.to_i
+            end
+            resultado
+
+
         end
     end
 end
