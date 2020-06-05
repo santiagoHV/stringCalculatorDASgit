@@ -1,6 +1,10 @@
 class StringCalculator 
 
     def calcular operacion
-        0
+        if operacion == ""
+            0
+        else
+            operacion.to_i
+        end
     end
 end
