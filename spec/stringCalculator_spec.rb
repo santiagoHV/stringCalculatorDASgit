@@ -36,4 +36,20 @@ describe StringCalculator do
         #assert
         expect(result).to eq 5
     end
+    it "Cuando la operacion es '2+3+9' retorna 14" do
+        #arrange
+        calculator = StringCalculator.new
+        #act
+        result = calculator.calcular("2+3+9")
+        #assert
+        expect(result).to eq 14
+    end
+    it "Cuando la operacion es '2+3+9+10+11' retorna 35" do
+        #arrange
+        calculator = StringCalculator.new
+        #act
+        result = calculator.calcular("2+3+9+10+11")
+        #assert
+        expect(result).to eq 35
+    end
 end
