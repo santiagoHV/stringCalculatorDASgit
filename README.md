@@ -1,8 +1,8 @@
-![](https://github.com/kleer-la/template2_6_5/workflows/Ruby/badge.svg)
+![](https://github.com/santiagoHV/stringCalculatorDASgit/workflows/Ruby/badge.svg)
 
 para ver el reporte de analisis de codigo:
 
-https://kleer-la.github.io/template2_6_5/overview.html#
+https://santiagoHV.github.io/stringCalculatorDASgit/overview.html#
 
 
 ### Para el setup sin docker:
